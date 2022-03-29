@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(90deg,#000, #000E 30%, #000A 50%, #0000) ,url(../img/background.png);
+    background-size:cover;
+    background-position: right;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    padding:0px 128px ;
+}
+
+/*
+font-family: 'Mulish', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/

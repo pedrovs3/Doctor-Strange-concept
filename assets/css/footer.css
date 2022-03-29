@@ -1,0 +1,12 @@
+footer{
+    height: 80px;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    color: whitesmoke;
+    font-weight: 300;
+}

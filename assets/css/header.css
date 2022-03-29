@@ -1,0 +1,35 @@
+header{
+    height: 120px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.15rem;
+}
+
+.menu .logo{
+    height: 36px;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 36px;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-list li a{
+    padding: 10px 20px;
+    text-shadow: 2px 2px 4px #000;
+    transition: all 400ms ease-in-out;
+    border-radius: 5px;
+}
+
+.menu-list li a:hover{
+    background-color: #FF031A;
+}
