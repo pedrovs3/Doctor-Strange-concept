@@ -28,10 +28,8 @@ header{
     text-shadow: 2px 2px 4px #000;
     transition: all 400ms ease-in-out;
     border-radius: 5px;
-    color:#1a1a1a;
 }
 
 .menu-list li a:hover{
-    color:#f5f5f5;
     background-color: #FF031A;
 }
