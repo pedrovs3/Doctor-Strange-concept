@@ -1,4 +1,75 @@
 body{
     background-color: #1a1a1a;
     padding:0px 128px ;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.flex-personagens{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.card-personagens{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.card-personagens:nth-child(2){
+    justify-content: space-between;
+}
+
+.card-personagens img{
+    height: 427px;
+    width: 238px;
+}
+
+.card-personagens .text{
+    height: 427px;
+    width: 238px;
+}
+
+.card-personagens .name, .name2{
+    font-size: 1.43rem;
+    color: #f5f5f5;
+    font-family: 'Mulish', sans-serif;
+    max-width: 238px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.card-personagens .button-viewmore{
+    height: 70px;
+    width: 230px;
+    background-color: #FF031A;
+    border-radius: 7px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.43rem;
+    font-family: 'Mulish', sans-serif;
+    color: #f5f5f5;
+    transition: 300ms ease-in-out;
+}
+
+.card-personagens .button-viewmore:hover{
+    background-color: #9c000d;
+}
+
+.name2{
+    max-width: 200px;
+    text-align: center;
 }
