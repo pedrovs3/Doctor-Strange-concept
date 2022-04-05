@@ -29,14 +29,9 @@ main{
     justify-content: space-between;
 }
 
-.card-personagens img{
-    height: 427px;
-    width: 238px;
-}
-
-.card-personagens .text{
-    height: 427px;
-    width: 238px;
+.card-personagens .img, .card-personagens .text{
+    height: 490px;
+    width: 280px;
 }
 
 .card-personagens .name, .name2{
@@ -51,7 +46,7 @@ main{
 
 .card-personagens .button-viewmore{
     height: 70px;
-    width: 230px;
+    width: 280px;
     background-color: var(--accent-color);
     border-radius: 7px;
     border: none;
@@ -72,6 +67,61 @@ main{
 .name2{
     max-width: 200px;
     text-align: center;
+}
+
+.img{
+    background-image: url(../../img/doctor.png) ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.card-personagens:nth-child(2) .img{
+    background-image: url(../../img/Wong.png);
+}
+
+.card-personagens:nth-child(3) .img{
+    background-image: url(../../img/feiticeira.png);
+}
+
+.card-personagens:nth-child(4) .img{
+    background-image: url(../../img/miss.png);
+}
+
+.img:after, .card-personagens:nth-child(2) .img:after, .card-personagens:nth-child(2) .img:after, .card-personagens:nth-child(2) .img:after{
+    content: 'O Doutor Estranho serve como o Mago Supremo, o principal protetor da Terra contra ameaças mágicas e místicas.';
+    padding: 10px;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #000000cf;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    transition: .2s ease-in-out;
+    opacity: 0;
+    backdrop-filter: blur(4px);
+}
+
+.card-personagens:nth-child(2) .img:after{
+    content: 'Wong é o auxiliar e servo do Doutor Estranho, o Mago Supremo da Terra.';
+}
+
+.card-personagens:nth-child(3) .img:after{
+    content: 'A heroína é conhecida por ser uma feiticeira muito poderosa, que é capaz até mesmo de alterar a realidade.';
+}
+
+.card-personagens:nth-child(4) .img:after{
+    content: 'América Chavez utiliza seus poderes de “saltar” entre as dimensões e realidades, adota o nome Miss America';
+}
+
+
+.card-personagens:hover > .img::after{
+    opacity: 1;
 }
 
 @media (max-width:800px){
