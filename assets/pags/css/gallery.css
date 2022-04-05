@@ -29,32 +29,32 @@ body{
 }
 
 .imagem:nth-child(1){
-    background-image: url(/assets/img/img1.jpg);
+    background-image: url(../../img/img1.jpg);
 }
 
 .imagem:nth-child(2){
-    background-image: url(/assets/img/img2.jpg);
+    background-image: url(../../img/img2.jpg);
 }
 .imagem:nth-child(3){
-    background-image: url(/assets/img/img3.jpg);
+    background-image: url(../../img/img3.jpg);
 }
 .imagem:nth-child(4){
-    background-image: url(/assets/img/img4.jpg);
+    background-image: url(../../img/img4.jpg);
     background-position: 60%;
     background-size: cover;
 }
 .imagem:nth-child(5){
-    background-image: url(/assets/img/img5.gif);
+    background-image: url(../../img/img5.gif);
 }
 .imagem:nth-child(6){
-    background-image: url(/assets/img/img6.jpg);
+    background-image: url(../../img/img6.jpg);
 }
 .imagem:nth-child(7){
-    background-image: url(/assets/img/img7.jpg);
+    background-image: url(../../img/img7.jpg);
     background-position: 40%;
 }
 .imagem:nth-child(8){
-    background-image: url(/assets/img/img8.jpg);
+    background-image: url(../../img/img8.jpg);
 }
 
 .imagem:hover{
