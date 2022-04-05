@@ -95,3 +95,36 @@ main{
 .fa-brands {
     font-size: 24px;
 }
+
+@media (max-width: 768px){
+    .main-content-container .movie-text{
+        display: none;
+    }
+
+    .social-container, .icons-container{
+    display: none;
+    }
+
+    .button{
+        width: auto;
+        padding: 25px 40px;
+        margin: 36px auto 100px auto;
+    }
+
+    .title{
+        font-size: 4rem;
+        line-height: 2.4rem;
+    }
+
+    .title span{
+        font-size: 1.7rem;
+    }
+    .subtitle{
+        font-size: 1.6rem;
+    }
+
+    .main-content-container{
+        gap: 30px;
+        justify-content: flex-end;
+    }
+}

@@ -7,10 +7,21 @@ body{
     background-blend-mode: darken;
     display: flex;
     flex-direction: column;
-    padding:0px 128px ;
+    padding:0px 128px;
 }
 
 /*
 font-family: 'Mulish', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+
+
+@media (max-width:800px){
+    body{
+        background-color: #000000b0;
+        background-image: url(../img/background.png);
+        background-blend-mode: darken;
+        padding: 0px 30px;
+        background-position: 90%;
+    }
+}

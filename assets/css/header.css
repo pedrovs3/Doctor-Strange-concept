@@ -34,3 +34,9 @@ header{
     background-color: var(--accent-color);
     color: var(--background-black);
 }
+
+@media (max-width:800px){
+    .menu-list{
+        display: none;
+    }
+}
