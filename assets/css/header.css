@@ -31,6 +31,6 @@ header{
 }
 
 .menu-list li a:hover{
-    background-color: #FF031A;
-    color: #1a1a1a;
+    background-color: var(--accent-color);
+    color: var(--background-black);
 }

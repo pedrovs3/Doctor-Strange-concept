@@ -18,20 +18,21 @@ main{
     font-weight: 500;
     display: flex;
     flex-direction: column;
-    color: whitesmoke;
+    color: var(--text-color);
     line-height: 4rem;
 }
 
 .title span{
-    font-weight: 100;
+    font-weight: lighter;
     font-size: 2.25rem;
 }
 
 .subtitle{
     font-family: 'Mulish', sans-serif;
     font-weight: lighter;
+    font-style: italic;
     font-size: 47px;
-    color: #FF031A;
+    color: var(--accent-color);
 }
 
 .main-content-container .movie-text{
@@ -39,14 +40,14 @@ main{
     font-family: 'Mulish', sans-serif;
     font-weight: 100;
     max-width: 600px;
-    color: #f5f5f5;
+    color: var(--text-color);
 }
 
 .button{
     margin-top: 36px;
     padding: 25px 30px;
     border-radius: 10px;
-    background-color: #FF031A;
+    background-color: var(--accent-color);
     width: 300px;
     font-family: 'Mulish', sans-serif;
     font-style: italic;
@@ -58,7 +59,7 @@ main{
 }
 
 .button:hover{
-    background-color: #9c000d;
+    background-color: var(--hover-color);
 }
 
 .fa-arrow-right-long{
@@ -77,7 +78,7 @@ main{
 
 .icons-container{
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid var(--white-color);
     width: 100%;
     padding: 10px 0px;
     display: flex;
@@ -87,7 +88,8 @@ main{
 }
 
 .icons-container:hover{
-    border-color: #FF031A;
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
 }
 
 .fa-brands {

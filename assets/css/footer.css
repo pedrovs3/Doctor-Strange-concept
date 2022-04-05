@@ -7,6 +7,6 @@ footer{
     display: flex;
     justify-content: center;
     font-family:'Roboto', sans-serif;
-    color: whitesmoke;
+    color:var(--text-color);
     font-weight: 300;
 }
