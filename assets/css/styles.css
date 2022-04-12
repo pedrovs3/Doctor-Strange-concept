@@ -10,6 +10,11 @@ body{
     padding:0px 128px;
 }
 
+body, html{
+    position: relative;
+    overflow: hidden;
+}
+
 /*
 font-family: 'Mulish', sans-serif;
 font-family: 'Roboto', sans-serif;
