@@ -75,7 +75,6 @@ header{
         color: transparent;
         gap: 10px;
         border-radius: 0px 0px 100% 100%;
-        box-shadow: 4px 4px 50px 20px #FF031A;
     }
     to{
         height: 100%;
@@ -98,6 +97,5 @@ header{
         color: transparent;
         gap: 10px;
         border-radius: 0px 0px 100% 100%;
-        box-shadow: 4px 4px 50px 20px #FF031A;
     }
 }
