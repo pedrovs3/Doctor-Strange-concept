@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     padding:0px 128px;
+    animation: zoom 2s ease-in-out ;
 }
 
 body, html{
@@ -28,5 +29,14 @@ font-family: 'Roboto', sans-serif;
         background-blend-mode: darken;
         padding: 0px 30px;
         background-position: 90%;
+    }
+}
+
+@keyframes zoom{
+    to{
+        transform: scale(1);
+    }
+    from{
+        transform: scale(0);
     }
 }

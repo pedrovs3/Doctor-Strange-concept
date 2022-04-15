@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/variables.css">
     <link rel="stylesheet" href="./css/videos.css">
 
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
 
     <script src="https://kit.fontawesome.com/e2a54895da.js" crossorigin="anonymous"></script>
 
@@ -31,18 +31,21 @@
     <main>
         <div class="flex-trailers">
             <div class="trailer-1 trailer-card">
-                <img class="thumb-trailer" src="../img/trailer-img.jpg" alt="Imagem do trailer 1">
+                <div id="iframe1"></div>
+                <img id="thumb1" class="thumb-trailer" src="../img/trailer-img.jpg" alt="Imagem do trailer 1">
                 <h2>Trailer 1</h2>
                 <p>22 de dez. de 2021</p>
-                <button class="button-trailer" onclick="window.open('https://youtu.be/KUu6aZhkry4')">Assista ao trailer 1 <i class="fa-solid fa-arrow-right-long"></i></button>
+                <!--<button class="button-trailer" onclick="window.open('https://youtu.be/KUu6aZhkry4')">Assista ao trailer 1 <i class="fa-solid fa-arrow-right-long"></i></button>-->
             </div>
-            <div class="trailer-2  trailer-card">
-                <img class="thumb-trailer" src="../img/trailer-img2.jpg" alt="Imagem do trailer 1">
+            <div id="trailer1" class="trailer-2  trailer-card">
+                <div id="iframe2"></div>
+                <img id="image-trailer" class="thumb-trailer" src="../img/trailer-img2.jpg" alt="Imagem do trailer 1">
                 <h2>Trailer 2</h2>
                 <p>13 de fev. de 2022</p>
-                <button class="button-trailer" onclick="window.open('https://youtu.be/j-pBk19cJpI')">Assista ao trailer 2 <i class="fa-solid fa-arrow-right-long"></i></button>
+                <!--<button class="button-trailer" onclick="window.open('https://youtu.be/j-pBk19cJpI')">Assista ao trailer 2 <i class="fa-solid fa-arrow-right-long"></i></button>-->
             </div>
         </div>
     </main>
+    <script src="../js/videos.js"></script>
 </body>
 </html>

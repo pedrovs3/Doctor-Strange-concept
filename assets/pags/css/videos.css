@@ -22,6 +22,7 @@ body{
 
 .trailer-card .thumb-trailer{
     height: 400px;
+    width: 700px;
     border-radius: 10px;
 }
 
@@ -42,7 +43,7 @@ body{
     text-align: center;
     font-style: italic;
 }
-
+/*
 .button-trailer{
     border: none;
     background-color: #FF031A;
@@ -61,3 +62,4 @@ body{
 .button-trailer:hover{
     color: #1a1a1a;
 }
+*/
