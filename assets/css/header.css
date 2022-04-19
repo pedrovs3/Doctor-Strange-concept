@@ -68,6 +68,12 @@ header{
 
     .menu-burger-container.show ~ .menu-list{
         display: flex;
+        height: 100vh;
+        z-index: 99;
+    }
+
+    .menu-burger-container.show ~ html{
+        max-height: 100vh;
     }
 
     .menu-burger-container.animation ~ .menu-list{
