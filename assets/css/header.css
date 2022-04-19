@@ -39,6 +39,14 @@ header{
     header{
         height: 70px;
     }
+
+    .menu{
+        width: 100%;
+        justify-content: center;
+    }
+    .menu .logo{
+        padding-right: 30px;
+    }
     
     .menu-list{
         background-color: #1a1a1a;

@@ -22,6 +22,7 @@ body{
 
 .trailer-card .thumb-trailer{
     height: 400px;
+    width: 700px;
     border-radius: 10px;
 }
 
@@ -43,6 +44,32 @@ body{
     font-style: italic;
 }
 
+@media (max-width:800px){
+    .flex-trailers{
+        flex-direction: column;
+        margin: 20px 0px;
+        gap:70px;
+    }
+
+    .trailer-card{
+        max-width: 300px;
+    }
+
+    .trailer-card .thumb-trailer{
+        height: 300px;
+        width: 350px;
+    }
+
+    .trailer-card h2{
+        font-size: 2.7rem;
+    }
+
+    .trailer-card p{
+        font-size: 1.4rem;
+    }
+    
+}
+/*
 .button-trailer{
     border: none;
     background-color: #FF031A;
@@ -61,3 +88,4 @@ body{
 .button-trailer:hover{
     color: #1a1a1a;
 }
+*/

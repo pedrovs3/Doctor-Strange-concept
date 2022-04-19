@@ -125,10 +125,31 @@ main{
 }
 
 @media (max-width:800px){
+    main{
+        height: auto;
+    }
     body{
         overflow: scroll ;
     }
+
     .flex-personagens{
+        padding-top: 50px;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .card-personagens{
+        gap: 20px;
+    }
+
+    .card-personagens .img, .card-personagens .text{
+        height: 300px;
+        width: 200px;
+    }
+
+    .card-personagens .button-viewmore{
+        width: 200px;
     }
 }

@@ -7,7 +7,6 @@ body{
     background-color: var(--background-black);
 }
 
-
 .gallery-flex{
     display: flex;
     flex-direction: row;
@@ -60,4 +59,29 @@ body{
 .imagem:hover{
     transform: scale(1.2);
     box-shadow: 20px 13px 10px 2px #000;
+}
+
+@media (max-width:800px){
+    body{
+        width: 100vw;
+        height: auto;
+        padding: 0 30px;
+    }
+
+    .imagem{
+        height: 300px;
+        width: 350px;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-flex{
+        justify-content: flex-start;
+        margin: 0 0;
+        width: 50vw;
+    }
 }
