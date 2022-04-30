@@ -2,7 +2,7 @@
 
 Projeto construido durante as aulas de LIMA, no curso de Desenvolvimento de Sistemas do [SENAI Jandira](https://jandira.sp.senai.br/), com orientação do Prof. [Fernando Leonid](https://github.com/fernandoleonid)
 
-<img src="./assets/img/Web.PNG" ></img>
+<img src="./assets/img/WEB.png" ></img>
 
 <img src="./assets/img/Home-phone.png" width="200px"></img>
 <img src="./assets/img/Home-phone2.png" width="200px"></img>
